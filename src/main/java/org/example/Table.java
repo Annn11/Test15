@@ -1,8 +1,9 @@
 package org.example;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Table {
+public class Table implements Identifiable {
     private String id;
     private int number;
     private boolean avaible;
